@@ -2,12 +2,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
     margin: 0;
-    background-color: black;
-    color: black;
+    background-color: #1D1D1D;
+    color: #1D1D1D;
     margin: 0;
-    max-height: 700px;
     overflow-y: hidden;
     overflow-x: hidden;
+    max-height: 900px;
 
 }
 
@@ -48,12 +48,12 @@ background-color: #CCFF00;
 padding: 20px;
 text-align: center;
 grid-column: 1;
-color: black;
+color: #1D1D1D;
 }
 
 
 .grid-item-studio-title {
-    background-color: black;
+    background-color: #1D1D1D;
     color: white;
     padding: 20px;
     text-align: center;
@@ -61,7 +61,7 @@ color: black;
     }
 
 .grid-item-studio {
-    background-color: black;
+    background-color: #1D1D1D;
     padding: 20px;
     text-align: center;
     grid-column: 3;
@@ -81,24 +81,25 @@ color: black;
     grid-column: 4;
     background: white;
     background: white;
-    color: black;
-    color: black;
-    height: 800px;
+    color: #1D1D1D;
+    color: #1D1D1D;
+    height: 750px;
 
     }
 
+
     .grid-item-lab {
-        background-color:;
+        background-color: white;
         padding: 20px;
         text-align: center;
         grid-column: 5;
-        background: white;
-        color: black;
+        color: #1D1D1D;
         margin-left: -10px;
-        height: 800px;
+        height: 750px;
         overflow-y: auto;
         overflow-x: hidden;
         padding-left: 30%;
+        width: 1000px;
         }
 
 .frame {
@@ -106,13 +107,14 @@ color: black;
     height: 600px;
     transform: scale(0.2);
     -webkit-transform-origin: 0 0;
-    border: 1px black solid;
+    border: 1px #1D1D1D solid;
     margin-bottom: -475px;
     overflow: hidden; 
+    background: white;
 }
 
 a {
-    color: black;
+    color: #1D1D1D;
     text-decoration: none;
 
 }
@@ -135,10 +137,10 @@ a:hover {
     top: 0;
     left: 0;
     opacity: 0;
-    height: 300%;
+    height: 500%;
     z-index: 2;
     transition: opacity 0.3s ease-in-out;
-    border: 1px black solid;
+    border: 1px #1D1D1D solid;
   }
   
   .container:hover img {
